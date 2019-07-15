@@ -30,8 +30,8 @@ public:
 
 protected:
 
-	Node * _first;
-	Node * _last;
+	Node *_first;
+	Node *_last;
 
 private:
 
@@ -46,12 +46,12 @@ public:
 	Iterator(Node *pos);
 
 	Iterator &operator ++ ();		 //prefix ++
-	Iterator &operator ++ (int);	 // postfix ++
+	Iterator &operator ++ (T);		 // postfix ++
 
 	Iterator &operator -- ();		 //prefix --
-	Iterator &operator -- (int);	 // postfix --
+	Iterator &operator -- (T);		 // postfix --
 
-	int & operator * ();			 // dereference operator
+	int &operator *();			 // dereference operator
 
 	bool operator == (const Iterator &rhs)const;
 	bool operator != (const Iterator &rhs) const;
@@ -60,18 +60,18 @@ public:
 protected:
 private:
 
-	Node * node;
+	Node *node;
 };
 
 template <typename T>
 struct LinkedList<T>::Node
 {
-	int data;
+	T data;
 	Node *next;
 	Node *prev;
 
 	Node();
-	Node(int d, Node *n, Node *p);
+	Node(T d, Node *n, Node *p);
 	~Node();
 };
 
@@ -97,7 +97,7 @@ LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator ++ ()
 }
 
 template <typename T>
-LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator ++ ()
+LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator ++ (T)
 {
 	node = node->next;
 	return *this;
@@ -112,7 +112,7 @@ LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator -- ()
 }
 
 template <typename T>
-LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator -- ()
+LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator -- (T)
 {
 	node = node->prev;
 	return *this;
@@ -120,7 +120,7 @@ LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator -- ()
 }
 
 template <typename T>
-int & LinkedList<T>::Iterator::operator * ()
+int &LinkedList<T>::Iterator::operator * ()
 {
 	return node->data;
 }
@@ -209,7 +209,7 @@ LinkedList<T>::Node::Node() : next(nullptr), prev(nullptr)
 }
 
 template<typename T>
-LinkedList<T>::Node::Node(int d, Node *n, Node *p) : data(d), next(n), prev(p)
+LinkedList<T>::Node::Node(T d, Node *n, Node *p) : data(d), next(n), prev(p)
 {
 
 }

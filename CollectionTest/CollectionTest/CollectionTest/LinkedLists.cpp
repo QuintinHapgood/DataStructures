@@ -6,7 +6,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace TemplatesAssesment
 {
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(LinkedListTests)
 	{
 	public:
 
