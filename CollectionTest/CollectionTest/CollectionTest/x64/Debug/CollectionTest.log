@@ -1,26 +1,41 @@
-﻿  stdafx.cpp
-  IntBinaryTreeTests.cpp
-c:\users\soundwave\desktop\collectiontest\collectiontest\collectiontest\intbinarytreetests.cpp(25): error C2665: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': none of the 8 overloads could convert all the argument types
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(184): note: could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(178): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(172): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(165): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(159): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(153): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(146): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(float,float,float,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(139): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(double,double,double,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\users\soundwave\desktop\collectiontest\collectiontest\collectiontest\intbinarytreetests.cpp(25): note: while trying to match the argument list '(unsigned int, size_t, const wchar_t [20])'
-c:\users\soundwave\desktop\collectiontest\collectiontest\collectiontest\intbinarytreetests.cpp(29): error C2665: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': none of the 8 overloads could convert all the argument types
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(184): note: could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(178): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(172): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(165): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(159): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(153): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(146): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(float,float,float,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(139): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(double,double,double,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\users\soundwave\desktop\collectiontest\collectiontest\collectiontest\intbinarytreetests.cpp(29): note: while trying to match the argument list '(unsigned int, size_t, const wchar_t [20])'
-  LinkedLists.cpp
-  unittest1.cpp
-c:\users\soundwave\desktop\collectiontest\collectiontest\collectiontest\dintarr.h(83): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
+﻿  LinkedLists.cpp
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(92): warning C4346: 'Iterator': dependent name is not a type
+  c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(92): note: prefix with 'typename' to indicate a type
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(92): error C2061: syntax error: identifier 'Iterator'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(93): error C2143: syntax error: missing ';' before '{'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(93): error C2447: '{': missing function header (old-style formal list?)
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(100): warning C4346: 'Iterator': dependent name is not a type
+  c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(100): note: prefix with 'typename' to indicate a type
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(100): error C2061: syntax error: identifier 'Iterator'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(101): error C2143: syntax error: missing ';' before '{'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(101): error C2447: '{': missing function header (old-style formal list?)
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(107): warning C4346: 'Iterator': dependent name is not a type
+  c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(107): note: prefix with 'typename' to indicate a type
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(107): error C2061: syntax error: identifier 'Iterator'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(108): error C2143: syntax error: missing ';' before '{'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(108): error C2447: '{': missing function header (old-style formal list?)
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(115): warning C4346: 'Iterator': dependent name is not a type
+  c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(115): note: prefix with 'typename' to indicate a type
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(115): error C2061: syntax error: identifier 'Iterator'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(116): error C2143: syntax error: missing ';' before '{'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(116): error C2447: '{': missing function header (old-style formal list?)
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(141): warning C4346: 'Iterator': dependent name is not a type
+  c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(141): note: prefix with 'typename' to indicate a type
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(141): error C2061: syntax error: identifier 'Iterator'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(142): error C2143: syntax error: missing ';' before '{'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(142): error C2447: '{': missing function header (old-style formal list?)
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(148): warning C4346: 'Iterator': dependent name is not a type
+  c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(148): note: prefix with 'typename' to indicate a type
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(148): error C2061: syntax error: identifier 'Iterator'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(149): error C2143: syntax error: missing ';' before '{'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(149): error C2447: '{': missing function header (old-style formal list?)
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(194): warning C4346: 'Node': dependent name is not a type
+  c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(194): note: prefix with 'typename' to indicate a type
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(194): error C2061: syntax error: identifier 'Node'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(195): error C2143: syntax error: missing ';' before '{'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(195): error C2447: '{': missing function header (old-style formal list?)
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(200): warning C4346: 'Node': dependent name is not a type
+  c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(200): note: prefix with 'typename' to indicate a type
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(200): error C2061: syntax error: identifier 'Node'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(201): error C2143: syntax error: missing ';' before '{'
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(201): error C2447: '{': missing function header (old-style formal list?)

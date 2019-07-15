@@ -76,82 +76,82 @@ struct LinkedList<T>::Node
 };
 
 #pragma region Iterators
-//template<Iterator::Iterator() : node(nullptr)>
-LinkedList<int>::Iterator::Iterator() : node(nullptr)
+template <typename T>
+LinkedList<T>::Iterator::Iterator() : node(nullptr)
 {
 
 }
 
-//template<Iterator(LinkedList::Node *pos) : node(pos)>
-LinkedList<int>::Iterator::Iterator(LinkedList::Node *pos) : node(pos)
+template <typename T>
+LinkedList<T>::Iterator::Iterator(LinkedList::Node *pos) : node(pos)
 {
 
 }
 
-//template<Iterator::operator ++ ()>
-LinkedList<int>::Iterator &LinkedList<int>::Iterator::operator ++ ()
-{
-	node = node->next;
-	return *this;
-
-}
-
-//template<Iterator::operator ++ (int)>
-LinkedList<int>::Iterator &LinkedList<int>::Iterator::operator ++ (int)
+template <typename T>
+LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator ++ ()
 {
 	node = node->next;
 	return *this;
+
 }
 
-//template<Iterator::operator -- ()>
-LinkedList<int>::Iterator &LinkedList<int>::Iterator::operator -- ()
+template <typename T>
+LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator ++ ()
+{
+	node = node->next;
+	return *this;
+}
+
+template <typename T>
+LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator -- ()
 {
 	node = node->prev;
 	return *this;
 
 }
 
-//template<Iterator::operator -- (int)>
-LinkedList<int>::Iterator &LinkedList<int>::Iterator::operator -- (int)
+template <typename T>
+LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator -- ()
 {
 	node = node->prev;
 	return *this;
 
 }
 
-//template<Iterator::operator * ()>
-int & LinkedList<int>::Iterator::operator * ()
+template <typename T>
+int & LinkedList<T>::Iterator::operator * ()
 {
 	return node->data;
 }
 
-//template<Iterator::operator == (const Iterator &rhs)const>
-bool LinkedList<int>::Iterator::operator == (const Iterator &rhs)const
+template <typename T>
+bool LinkedList<T>::Iterator::operator == (const Iterator &rhs)const
 {
 	return node == rhs.node;
 }
 
-//template<Iterator::operator != (const Iterator &rhs) const>
-bool LinkedList<int>::Iterator::operator != (const Iterator &rhs) const
+template <typename T>
+bool LinkedList<T>::Iterator::operator != (const Iterator &rhs) const
 {
 	return node != rhs.node;
 }
 
-//template<LinkedList::Begin()>
-LinkedList<int>::Iterator LinkedList<int>::Begin()
+template <typename T>
+LinkedList<T>::Iterator LinkedList<T>::Begin()
 {
 	return Iterator(_first);
 
 }
 
-//template<LinkedList::End()>
-LinkedList<int>::Iterator LinkedList<int>::End()
+template <typename T>
+LinkedList<T>::Iterator LinkedList<T>::End()
 {
 	return Iterator(nullptr);
 }
 
-//template<LinkedList<int>::PopFront()>
-void LinkedList<int>::PopFront()
+template <typename T>
+void LinkedList<T>::PopFront()
 {
 	if (_last != _first)
 	{
@@ -167,8 +167,8 @@ void LinkedList<int>::PopFront()
 }
 
 
-//template<LinkedList::PopBack()>
-void LinkedList<int>::PopBack()
+template <typename T>
+void LinkedList<T>::PopBack()
 {
 	if (_last != _first)
 	{
@@ -190,35 +190,31 @@ void LinkedList<int>::PopBack()
 #pragma endregion
 
 #pragma region Nodes
-//template<LinkedList::FirstNode()>
-//template<typename BiTree>
-LinkedList<int>::Node *LinkedList<int>::FirstNode()
+template <typename T>
+LinkedList<T>::Node *LinkedList<T>::FirstNode()
 {
 	return _first;
 }
 
-//template<LinkedList::LastNode()>
-//template<typename BiTree>
-LinkedList<int>::Node *LinkedList<int>::LastNode()
+template <typename T>
+LinkedList<T>::Node *LinkedList<T>::LastNode()
 {
 	return _last;
 }
 
-//template<Node::Node() : next(nullptr), prev(nullptr)>
 template<typename T>
 LinkedList<T>::Node::Node() : next(nullptr), prev(nullptr)
 {
 
 }
 
-//template<Node::Node(int d, Node *n, Node *p) : data(d), next(n), prev(p)>
 template<typename T>
 LinkedList<T>::Node::Node(int d, Node *n, Node *p) : data(d), next(n), prev(p)
 {
 
 }
 
-//template<Node::~Node()>
+
 template<typename T>
 LinkedList<T>::Node::~Node()
 {
@@ -228,15 +224,14 @@ LinkedList<T>::Node::~Node()
 
 #pragma region LinkedList
 
-//template <LinkedList::LinkedList>
 template<typename T>
 LinkedList<T>::LinkedList() : _first(nullptr), _last(nullptr)
 {
 
 }
 
-//template <LinkedList::~LinkedList>
-LinkedList<int>::~LinkedList()
+template <typename T>
+LinkedList<T>::~LinkedList()
 {
 	clear();
 }
@@ -278,8 +273,8 @@ void LinkedList<T>::PushFront(T value)
 	}
 }
 
-//template<LinkedList::Size>
-size_t LinkedList<int>::Size()
+template <typename T>
+size_t LinkedList<T>::Size()
 {
 
 	if (_first == nullptr)
@@ -297,7 +292,7 @@ size_t LinkedList<int>::Size()
 
 }
 
-//template<LinkedList::clear>
+
 template <typename T>
 void LinkedList<T>::clear()
 {

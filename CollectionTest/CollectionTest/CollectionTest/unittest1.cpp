@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "CppUnitTest.h"
 #include "DIntArr.h"
 
@@ -7,7 +6,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace CollectionTest
 {
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(DIntArrTest)
 	{
 	public:
 

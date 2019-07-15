@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+/CollectionTest/CollectionTest/.vs/CollectionTest/v15
+/CollectionTest/CollectionTest/CollectionTest/x64/Debug/CollectionTest.tlog/link-cvtres.read.1.tlog
+*.tlog
+*.idb
+*.pdb
+*.exp
+*.suo
+*.db
