@@ -1,4 +1,5 @@
-﻿  LinkedLists.cpp
+﻿  BinaryTreeTests.cpp
+  LinkedLists.cpp
 c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(92): warning C4346: 'Iterator': dependent name is not a type
   c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(92): note: prefix with 'typename' to indicate a type
 c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(92): error C2061: syntax error: identifier 'Iterator'
@@ -39,3 +40,8 @@ c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\co
 c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(200): error C2061: syntax error: identifier 'Node'
 c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(201): error C2143: syntax error: missing ';' before '{'
 c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\linkedlist.h(201): error C2447: '{': missing function header (old-style formal list?)
+  unittest1.cpp
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\dintarr.h(83): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\binarytree.h(221): warning C4715: 'BinaryTree<int>::Add': not all control paths return a value
+c:\users\soundwave\source\repos\datastructures2\collectiontest\collectiontest\collectiontest\binarytree.h(167): warning C4715: 'BinaryTree<int>::Remove': not all control paths return a value

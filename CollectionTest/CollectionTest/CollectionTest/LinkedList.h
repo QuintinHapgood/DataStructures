@@ -120,7 +120,7 @@ LinkedList<T>::Iterator &LinkedList<T>::Iterator::operator -- (T)
 }
 
 template <typename T>
-int &LinkedList<T>::Iterator::operator * ()
+int &LinkedList<T>::Iterator::operator *()
 {
 	return node->data;
 }
